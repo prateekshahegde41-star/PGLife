@@ -1,0 +1,168 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #373737;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 30px 0 15px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer hr {
+    border-color: #555555;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 8px 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.navbar-nav .nav-item {
+    padding: 0 12px;
+}
+
+.navbar-nav .nav-item + .nav-item {
+    border-left: 1px solid #dddddd;
+}
+
+.navbar-nav .nav-link {
+    color: #777777 !important;
+    font-size: 14px;
+}
+
+.navbar-nav .nav-link i {
+    margin-right: 6px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #333333 !important;
+}
+
+/* Signup Modal */
+
+#signup-modal .modal-content {
+    border-radius: 4px;
+}
+
+#signup-modal .modal-header {
+    border-bottom: 1px solid #eeeeee;
+}
+
+#signup-modal .modal-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#signup-modal .input-group-text {
+    background-color: white;
+    color: #777777;
+    border-right: none;
+}
+
+#signup-modal .form-control {
+    border-left: none;
+}
+
+#signup-modal .form-control:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.signup-button {
+    background-color: #51c6c6;
+    border-color: #51c6c6;
+}
+
+.signup-button:hover {
+    background-color: #43b5b5;
+    border-color: #43b5b5;
+}
+
+#signup-modal .text-center {
+    font-size: 13px;
+    color: #777777;
+}
+
+#signup-modal .text-center a {
+    color: #51c6c6;
+    font-weight: 600;
+}
+
+/* Login Modal */
+
+#login-modal .modal-content {
+    border-radius: 4px;
+}
+
+#login-modal .modal-header {
+    border-bottom: 1px solid #eeeeee;
+}
+
+#login-modal .modal-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#login-modal .input-group-text {
+    background-color: white;
+    color: #777777;
+    border-right: none;
+}
+
+#login-modal .form-control {
+    border-left: none;
+}
+
+#login-modal .form-control:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.login-button {
+    background-color: #51c6c6;
+    border-color: #51c6c6;
+}
+
+.login-button:hover {
+    background-color: #43b5b5;
+    border-color: #43b5b5;
+}
+
+#login-modal .text-center {
+    font-size: 13px;
+    color: #777777;
+}
+
+#login-modal .text-center a {
+    color: #51c6c6;
+    font-weight: 600;
+}

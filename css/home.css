@@ -1,0 +1,88 @@
+.banner {
+    height: 400px;
+
+    background-image: url("../img/back.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+}
+
+
+.banner h1 {
+    color: white;
+
+    font-size: 40px;
+
+    font-weight: 600;
+}
+
+
+.search-form {
+    width: 60%;
+
+    margin: 30px auto 0;
+}
+
+
+.search-form .form-control {
+    height: 50px;
+}
+
+
+.search-form .btn {
+    height: 50px;
+}
+
+.major-cities {
+    padding: 60px 0;
+    background-color: white;
+}
+
+
+.major-cities h2 {
+    text-align: center;
+
+    font-size: 32px;
+
+    margin-bottom: 40px;
+
+    font-weight: 600;
+}
+
+
+.city-card {
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+
+.city-card img {
+    width: 140px;
+
+    height: 140px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.city-card p {
+    margin-top: 12px;
+
+    font-weight: 600;
+
+    font-size: 14px;
+}
